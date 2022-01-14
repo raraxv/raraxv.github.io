@@ -5,44 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<!-- <div class="first-class">
+        <div class="second-class">
+            <h1  style="color: green;" class="third-class" id="first-id">Text</h1>
+        </div>
+    </div> -->
     <header>
-        <h1>Welcome to&nbsp;my&nbsp;first&nbsp;website!</h1>
+        <h1>Welcome to my first website!</h1>
         <a href="contact.html">Contact me</a>
         <!-- <a href="https://www.google.com">Find in Google</a> -->
-        <br>
     </header>
 
-    <article>
-        <h3>This is my first blog post</h3>
-        <p>This is content of my first blog post</p>
-        <br>
-    </article>
+    <!-- <div style="clear: both;"></div> -->
 
-    <article>
-        <h3>This is my second blog post</h3>
-        <p>This is content of my second blog &lt;something&gt; post</p>
-        <br> <!-- this tag is used for new line -->
-    </article>
+    <div id="main-content">
 
-    <article>
-        <h3>This is my third blog post</h3>
-        <p>This is <mark>content</mark> of my third blog post <br> Continue the content after <i>breaking line</i>. <sup class="sup_element" style="color: red">*</sup></p>
-        <small><sup class="sup_element">*</sup>Another sentence</small>
-    </article>
+        <section id="articles"><article>
+            <h3>This is my first blog post</h3>
+            <p>This is content of my first blog post</p>
+            <!-- width of content area only -->
+            
+        </article>
 
-    <br> <!-- this tag is used for new line -->
-    <br>
-    <br>
 
-    <div>Contact. Here could be HTML contact form.</div>
+        <article>
+            <h3>This is my second blog post</h3>
+            <p>This is content of my second blog &lt;something&gt; post</p>
+        </article>
 
-    <div> <!-- div is the block element - div jest elementem blokowym -->
-        My skills
-        <table border="1">
+            <!--<br> this tag is used for new line -->
+    
+        <article>
+            <h3>This is my third blog post</h3>
+            <p>This is <mark>content</mark> of my third blog post Continue the content after <i>breaking line</i>. <sup class="sup_element">*</sup></p>
+            <small><sup class="sup_element">*</sup>Another sentence</small>
+        </article>
+        </section>
+    
+
+
+    <div id="skills"> <!-- div is the block element - div jest elementem blokowym -->
+        <b style="font-size: 34px; font-weight: 900; color: #20D0FF;">My skills</b>
+        <table>
             <tr>
                 <th>Technology</th>
                 <th>Level</th>
@@ -53,16 +61,19 @@
             </tr>
             <tr>
                 <td>CSS</td>
-                <td>0 :(</td>
+                <td>good ;)</td>
             </tr>
         </table>
     </div>
+
     
-    <br>
-    <br>
-    <br>
+
+    <!-- <div style="clear: both;"></div> -->
+
+</div>
 
     <footer>
+        <!-- <div style="position: relative; position: absolute; position: fixed; right: 20px; bottom: 0;"> -->
         <div>
             Footer area. &copy; <strong>Me</strong> & <b>My Tutor</b>
         </div>
